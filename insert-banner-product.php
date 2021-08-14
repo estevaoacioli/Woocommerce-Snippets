@@ -139,7 +139,7 @@ function framework_img_css_stuff() {
 }
 add_action( 'admin_head', 'framework_img_css_stuff' );
 
-// Function to render LiveChat JS code
+// Function to render 
 function framework_img_js_stuff() {
 ?>    
     <script type="text/javascript">
@@ -209,7 +209,7 @@ function framework_show_banner_produto() {
 	
 	if($attachment_id){
 		$img = wp_get_attachment_image_src($attachment_id, 'full');
-		$image_url = esc_url($img[0])
+		$image_url = esc_url($img[0]);
 ?>
 	
 	<div id="banner-master-product" class="banner-product" style="background-image: url('<?php echo $image_url; ?>');">	
